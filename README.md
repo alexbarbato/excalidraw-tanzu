@@ -11,5 +11,5 @@ Load `lib.excalidrawlib` into your excalidraw and rock on!
 Alternatively, you can individually upload the libraries from the `raw` directory, 1 by 1
 
 ## Included libraries
-- core: The base icons product icons with some core use case examples
+- core: The base product icons with some core use case examples
 - users: Generic user icons
