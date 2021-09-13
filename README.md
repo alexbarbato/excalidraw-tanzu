@@ -12,4 +12,6 @@ Alternatively, you can individually upload the libraries from the `raw` director
 
 ## Included libraries
 - core: The base product icons with some core use case examples
-- users: Generic user icons
+- users: Generic user icons (People, person, operators, devs, etc.)
+- serviceicons: Icons for services/external products (GitHub, Redis, Docker, etc.)
+- genericicons: Computers, servers, applications, etc.
