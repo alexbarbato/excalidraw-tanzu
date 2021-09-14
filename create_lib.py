@@ -11,16 +11,13 @@ else:
         file_name = './raw/' + arg + '.excalidrawlib'
         print("Loading file: " + file_name)
         
-        f = open(file_name)
-        loaded_data = json.load(f)
+        with open(file_name) as f:
+            loaded_data = json.load(f)
 
-        if index == 0: 
-            joined_lib = loaded_data
-        else:
-            joined_lib["library"] += loaded_data["library"]
+            if index == 0: 
+                joined_lib = loaded_data
+            else:
+                joined_lib["library"] += loaded_data["library"]
 
-        f.close()
-
-    new_file = open("lib.excalidrawlib", "w")
-    new_file.write(json.dumps(joined_lib))
-    new_file.close()
+    with open("lib.excalidrawlib", "w") as new_file:
+        new_file.write(json.dumps(joined_lib))
