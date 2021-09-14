@@ -15,3 +15,13 @@ Alternatively, you can individually upload the libraries from the `raw` director
 - users: Generic user icons (People, person, operators, devs, etc.)
 - serviceicons: Icons for services/external products (GitHub, Redis, Docker, etc.)
 - genericicons: Computers, servers, applications, etc.
+
+## Examples
+### core
+![core](./demo_images/core.png)
+### users
+![users](./demo_images/users.png)
+### serviceicons
+![serviceicons](./demo_images/serviceicons.png)
+### genericicons
+![genericicons](./demo_images/genericicons.png)
