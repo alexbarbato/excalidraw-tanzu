@@ -13,6 +13,7 @@ Alternatively, you can individually upload the libraries from the `raw` director
 ## Included libraries
 - core: The base product icons with some core use case examples
 - users: Generic user icons (People, person, operators, devs, etc.)
+- 5s: [5s 'Built to Adapt' benchmark](https://tanzu.vmware.com/content/announcements/the-built-to-adapt-benchmark-will-help-companies-to-set-a-new-course) iconography.
 - service: Icons for services/external products (GitHub, Redis, Docker, etc.)
 - generic: Computers, servers, applications, etc.
 
