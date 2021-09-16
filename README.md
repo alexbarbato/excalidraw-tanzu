@@ -10,6 +10,10 @@ Load `lib.excalidrawlib` into your excalidraw and rock on!
 
 Alternatively, you can individually upload the libraries from the `raw` directory, 1 by 1
 
+## References
+1. [Included libraries](#included-libraries)
+2. [Bonus!](#bonus)
+
 ## Included libraries
 - core: The base product icons with some core use case examples
 - users: Generic user icons (People, person, operators, devs, etc.)
@@ -28,3 +32,6 @@ Alternatively, you can individually upload the libraries from the `raw` director
 ![service](./demo_images/service.png)
 ### generic
 ![generic](./demo_images/generic.png)
+
+## Bonus!
+There is a starter excalidraw provided here that can be used as an initial whiteboard template
