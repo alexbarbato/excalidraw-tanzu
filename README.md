@@ -13,15 +13,17 @@ Alternatively, you can individually upload the libraries from the `raw` director
 ## Included libraries
 - core: The base product icons with some core use case examples
 - users: Generic user icons (People, person, operators, devs, etc.)
-- serviceicons: Icons for services/external products (GitHub, Redis, Docker, etc.)
-- genericicons: Computers, servers, applications, etc.
+- service: Icons for services/external products (GitHub, Redis, Docker, etc.)
+- generic: Computers, servers, applications, etc.
 
 ## Examples
 ### core
 ![core](./demo_images/core.png)
 ### users
 ![users](./demo_images/users.png)
-### serviceicons
-![serviceicons](./demo_images/serviceicons.png)
-### genericicons
-![genericicons](./demo_images/genericicons.png)
+### 5s
+![5s](./demo_images/5s.png)
+### service
+![service](./demo_images/service.png)
+### generic
+![generic](./demo_images/generic.png)
