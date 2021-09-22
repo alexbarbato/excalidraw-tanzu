@@ -22,16 +22,18 @@ Alternatively, you can individually upload the libraries from the `raw` director
 - generic: Computers, servers, applications, etc.
 
 ## Examples
-### core
-![core](./demo_images/core.png)
-### users
-![users](./demo_images/users.png)
 ### 5s
 ![5s](./demo_images/5s.png)
-### service
-![service](./demo_images/service.png)
+### core
+![core](./demo_images/core.png)
 ### generic
 ![generic](./demo_images/generic.png)
+### service
+![service](./demo_images/service.png)
+### slsa
+![slsa](./demo_images/slsa.png)
+### users
+![users](./demo_images/users.png)
 
 ## Bonus!
 There is a starter excalidraw provided here that can be used as an initial whiteboard template
