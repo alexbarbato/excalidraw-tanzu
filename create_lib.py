@@ -1,23 +1,27 @@
+import glob
 import json
 import sys
 
 joined_lib = {}
+files = []
 
 if len(sys.argv) == 1:
-    print("No command line arguments passed in. Should specify a series of file headers - e.g. users abc def")
-
+    print("No command line arguments passed in. Will compile all libraries.")
+    files = glob.glob("./raw/*")
 else:
-    for (index, arg) in enumerate(sys.argv[1:]):
-        file_name = './raw/' + arg + '.excalidrawlib'
-        print("Loading file: " + file_name)
-        
-        with open(file_name) as f:
-            loaded_data = json.load(f)
+    for file in sys.argv[1:]:
+        files.append('./raw/' + file + '.excalidrawlib')
 
-            if index == 0: 
-                joined_lib = loaded_data
-            else:
-                joined_lib["library"] += loaded_data["library"]
+for (index, file) in enumerate(files):
+    print("Loading file: " + file)
+    
+    with open(file) as f:
+        loaded_data = json.load(f)
 
-    with open("lib.excalidrawlib", "w") as new_file:
-        new_file.write(json.dumps(joined_lib))
+        if index == 0: 
+            joined_lib = loaded_data
+        else:
+            joined_lib["library"] += loaded_data["library"]
+
+with open("lib.excalidrawlib", "w") as new_file:
+    new_file.write(json.dumps(joined_lib))
