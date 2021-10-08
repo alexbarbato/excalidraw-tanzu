@@ -19,6 +19,8 @@ Alternatively, you can individually upload the libraries from the `raw` director
 - users: Generic user icons (People, person, operators, devs, etc.)
 - 5s: [5s 'Built to Adapt' benchmark](https://tanzu.vmware.com/content/announcements/the-built-to-adapt-benchmark-will-help-companies-to-set-a-new-course) iconography.
 - service: Icons for services/external products (GitHub, Redis, Docker, etc.)
+- slsa: Used to describe the [SLSA Framework](https://slsa.dev/)
+- tap: Used to explain and talk about the [Tanzu Application Platform](https://tanzu.vmware.com/application-platform)
 - generic: Computers, servers, applications, etc.
 
 ## Examples
@@ -32,6 +34,8 @@ Alternatively, you can individually upload the libraries from the `raw` director
 ![service](./demo_images/service.png)
 ### slsa
 ![slsa](./demo_images/slsa.png)
+### tap
+![tap](./demo_images/tap.png)
 ### users
 ![users](./demo_images/users.png)
 
