@@ -16355,7 +16355,7 @@
         "boundElementIds": [],
         "fontSize": 20,
         "fontFamily": 1,
-        "text": "- A consistent interface to underlying services\n  - Increased developer productivity and ops management\n- Powered by OSS Spring Cloud Gateway",
+        "text": "- A consistent interface to underlying services\n  - Increased developer productivity and ops management\n- Used to visualize OpenAPI compliant APIs",
         "baseline": 70,
         "textAlign": "left",
         "verticalAlign": "top"
